@@ -1,0 +1,5 @@
+<!-- If you hit enter key on an input which is wrapped inside of 
+a form it automatically triggers the submit event on it  -->
+<form (submit)="onSubmit($event)">
+  <input (input)="onInput($event)" placeholder="Search for a topic..." />
+</form>
